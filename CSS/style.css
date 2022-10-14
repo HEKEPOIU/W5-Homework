@@ -1,0 +1,158 @@
+html
+{
+    font-family: Arial; 
+    box-sizing: border-box;
+}
+
+*,*:after,*:before
+{
+    box-sizing: inherit;
+}
+
+.bg 
+{
+    width: 1260px;
+    height: 880px;
+    padding: 36px 160px 35px;
+    background-color: #edf2c5;
+}
+.box_footer 
+{
+    width: 1260px;
+    height: 60px;
+    background-color: #778a50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f_Word
+{
+    font-size: 12px;
+    letter-spacing: normal;
+    color: #edf2c5;
+}
+
+.Logoandicon
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+
+}
+.btnlist
+{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    height: 25px;
+}
+.spaceLine
+{
+    width: 1px;
+    height: 25px;
+    background-color: #778a50;
+    margin-left: 10px;
+}
+.imgbtn
+{
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+}
+.btn
+{
+    color: #778a50;
+    padding: 5px 7px;
+    border: solid 1px #778a50;
+    height: 25px;
+    border-radius:3px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.Logo
+{
+    font-size: 44px;
+    color:#778a50;
+    margin: 0px;
+    font-weight: 900;
+}
+
+.nav
+{
+    height: 44px;
+    display: flex;
+    border-radius: 3px;
+    background-color: #778a50;
+    align-items: center;
+    padding-left: 30px;
+}
+.navword
+{
+    font-size: 16px;
+    margin: 0 60px 0 0;
+    font-weight: 900;
+    color: #edf2c5;
+}
+.mainPng
+{
+    height: 448px;
+    margin-top: 20px;
+}
+.Vegetandcontact
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.vegetimglist
+{
+    display: flex;
+    justify-content: space-between;
+}
+.Vegetandcontactword
+{
+    height: 45px;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #edf2c5;
+    background-color: #778a50;
+    border-radius: 3px;
+    padding: 11px 316px 11px 30px;
+}
+.veget
+{
+    width: 444px;
+}
+.contact
+{
+    width: 444px;
+}
+.contactword
+{
+    background-color: #f7fbda;
+    padding: 15px;
+    height: 140px;
+}
+.fristP
+{
+    font-size: 12px;
+    line-height: 1.25;
+    color: #7d7d7d;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    height: 44px;
+}
+.secondP
+{
+    font-size: 12px;
+    color: #7d7d7d;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    line-height: 1.75;
+}
